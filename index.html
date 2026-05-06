@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson 2: AI History</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="top-nav" aria-label="Lesson navigation">
+      <a href="#goals" data-scroll>Goals</a>
+      <a href="#map" data-scroll>History Map</a>
+      <a href="#timeline" data-scroll>Timeline</a>
+      <a href="#activity-section" data-scroll>Activity</a>
+      <a href="#quiz" data-scroll>Quiz</a>
+      <button id="printButton" class="print-button">Print</button>
+    </nav>
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow">CTE Artificial Intelligence & Machine Learning Pathway</p>
+        <h1 id="lessonTitle">Lesson 2: AI History</h1>
+        <p id="lessonSubtitle" class="subtitle">From Early Computing to Modern AI Milestones</p>
+        <div class="hero-meta" aria-label="Lesson metadata">
+          <span>⏱ <strong>Duration:</strong> <span id="duration"></span></span>
+          <span>🎓 <strong>Audience:</strong> <span id="gradeLevel"></span></span>
+          <span>🧭 <strong>Unit:</strong> <span id="unit"></span></span>
+        </div>
+        <p id="lessonNote" class="note"></p>
+      </div>
+      <img src="assets/images/lesson-cover.svg" alt="Abstract AI history cover graphic" class="hero-image">
+    </div>
+  </header>
+
+  <main>
+    <section id="goals" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Start Here</p>
+        <h2>Learning Goals</h2>
+      </div>
+      <div id="learningGoals" class="card"></div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Key Language</p>
+        <h2>Student-Friendly Vocabulary</h2>
+      </div>
+      <div id="vocabularyCards" class="card-grid"></div>
+    </section>
+
+    <section class="section accent-section">
+      <div class="section-heading">
+        <p class="eyebrow">Bell Ringer</p>
+        <h2>Before We Learn</h2>
+      </div>
+      <div id="bellRinger" class="card"></div>
+    </section>
+
+    <section id="map" class="section">
+      <div id="historyMap" class="card feature-card"></div>
+    </section>
+
+    <section id="timeline" class="section">
+      <div id="timelineIntro" class="card intro-card"></div>
+      <div id="milestones" class="timeline-grid"></div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Career & Industry Connection</p>
+        <h2>Why AI History Matters in Industry</h2>
+      </div>
+      <div id="industries" class="industry-grid"></div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Video / Reading Checks</p>
+        <h2>Resources with Worksheet Questions</h2>
+      </div>
+      <p class="section-intro">Students should record responses in the student workbook section titled “Video & Reading Notes.” Preview links before classroom use because availability may vary by district filter.</p>
+      <div id="resources" class="resource-grid"></div>
+    </section>
+
+    <section id="activity-section" class="section accent-section">
+      <div id="activity" class="card"></div>
+    </section>
+
+    <section id="quiz" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Check for Understanding</p>
+        <h2>Interactive Quiz</h2>
+      </div>
+      <div class="card">
+        <form id="quizForm"></form>
+        <div class="quiz-actions">
+          <button type="button" id="submitQuiz" class="button">Submit Quiz</button>
+          <p id="quizScore" class="score"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section two-column-section">
+      <div id="exitTicket" class="card"></div>
+      <div id="lesson3Preview" class="card next-card"></div>
+    </section>
+
+    <section class="section two-column-section">
+      <div class="card">
+        <h2>Standards Alignment</h2>
+        <div id="standards"></div>
+      </div>
+      <div class="card teacher-card">
+        <h2>Teacher Notes</h2>
+        <div id="teacherNotes"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Lesson 2: AI History · GitHub Pages-ready static web app · Edit content in <code>js/lesson-data.js</code></p>
+  </footer>
+
+  <script src="js/lesson-data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
